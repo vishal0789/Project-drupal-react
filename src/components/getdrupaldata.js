@@ -32,6 +32,7 @@ function Getdrupaldata() {
         </thead>
         <tbody>
           {Object.keys(data).map((item) => {
+            console.log(data);
             return (
               <tr>
                 <td>{item}</td>
